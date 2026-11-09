@@ -1,0 +1,14 @@
+{
+  "name": "grok-connector",
+  "version": "1.0.0",
+  "description": "Claude에서 그록(xAI Grok)을 불러 쓰는 MCP 커넥터",
+  "type": "module",
+  "main": "server.js",
+  "bin": { "grok-connector": "server.js" },
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}
